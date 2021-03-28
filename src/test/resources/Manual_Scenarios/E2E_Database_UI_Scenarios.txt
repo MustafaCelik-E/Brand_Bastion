@@ -1,0 +1,38 @@
+// In this file I make changes in database and checks the UI if all changes occur
+Feature: End2End Database and UI Verifications
+
+    // The step in Background are common first step for ALL scenarios.
+    Background:
+        Given I am on the Airtable database
+        And I click "expand record" button under "object_id" section
+
+
+    Scenario-1: Verify that the changes "CLASSIFICATION" and "STATUS" in Airtable occurs on UI
+        When I select a classification(blank or positive or negative or neutral) and a status(blank or visible or hidden)
+        Then I should see the same classification and the same status for that comment on UI
+
+
+    Scenario-2: Verify that the changes "PLATFORM" in Airtable occurs on UI
+        When I select a platform(blank or facebook or instagram)
+        Then I should see the same platform logo for that comment on UI
+
+
+    Scenario-3: Verify that the changes in "MESSAGE" section Airtable occurs on UI
+        When I write a new message under "MESSAGE" section
+        Then I should see the same message for that comment on UI
+
+
+    Scenario-4: Verify that the changes in "AUTHOR_NAME" and "AUTHOR_USERNAME" section Airtable occurs on UI
+        When I write a new author name under "AUTHOR_NAME" and a author username "AUTHOR_USERNAME"
+        Then I should see the same author name and author username for that comment on UI
+
+
+
+
+    /* NOTE:
+    1-  When I change the platform from Airtable, it also changes on UI.
+        So I am not familiar with the app, so I need feedbacks to consider if it is a bug or not.
+
+    2-  When I change author name and author username from Airtable, it also changes on UI.
+        So I am not familiar with the app, so I need feedbacks to consider if it is a bug or not.
+    */

@@ -1,0 +1,421 @@
+INFO    2021-03-28 16:53:19,701 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 16:53:21,702 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Removing resolution chrome=89 from cache (expired on Sat Mar 27 22:03:35 EET 2021)
+DEBUG   2021-03-28 16:53:21,717 [main] io.github.bonigarcia.wdm.versions.Shell  - Running command on the shell: [wmic.exe, datafile, where, name='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+DEBUG   2021-03-28 16:53:24,353 [main] io.github.bonigarcia.wdm.versions.Shell  - Result: 
+DEBUG   2021-03-28 16:53:24,353 [main] io.github.bonigarcia.wdm.versions.Shell  - Running command on the shell: [wmic.exe, datafile, where, name='C:\\Users\\matt\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+DEBUG   2021-03-28 16:53:24,651 [main] io.github.bonigarcia.wdm.versions.Shell  - Result: 
+DEBUG   2021-03-28 16:53:24,652 [main] io.github.bonigarcia.wdm.versions.Shell  - Running command on the shell: [wmic.exe, datafile, where, name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+DEBUG   2021-03-28 16:53:24,822 [main] io.github.bonigarcia.wdm.versions.Shell  - Result: Version=89.0.4389.90
+DEBUG   2021-03-28 16:53:24,838 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:03:36 28/03/2021 EET)
+INFO    2021-03-28 16:53:24,838 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 16:53:24,838 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Storing resolution chrome=89 in cache (valid until 17:53:24 28/03/2021 EET)
+DEBUG   2021-03-28 16:53:24,947 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 16:53:24,947 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 16:53:34,397 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 16:53:36,456 [main] Step_Definitions.LogoutStepDefs  - I am at the top of the Comments page
+INFO    2021-03-28 16:53:36,665 [main] Step_Definitions.CommentsStepDefs  - Chose positive as a classification.
+INFO    2021-03-28 16:53:37,779 [main] Step_Definitions.CommentsStepDefs  - Chose visible as a status.
+INFO    2021-03-28 16:53:38,822 [main] Step_Definitions.CommentsStepDefs  - Verified the process button is enabled after choosing a classification and a status.
+INFO    2021-03-28 16:53:38,822 [main] Step_Definitions.CommentsStepDefs  - In the Manual Test, I realised that it is enabled to process without selecting a classification and a status,for my understanding; it shouldn't allow me to click process without choosing a classification and a status!(Looks like a Bug to me, check the Requirements!!)
+INFO    2021-03-28 16:53:40,313 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 16:53:40,344 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 16:53:40,360 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 17:53:24 28/03/2021 EET)
+DEBUG   2021-03-28 16:53:40,360 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:03:36 28/03/2021 EET)
+INFO    2021-03-28 16:53:40,360 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 16:53:40,375 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 16:53:40,375 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 16:53:45,618 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 16:53:47,050 [main] Step_Definitions.LogoutStepDefs  - I am at the top of the Comments page
+INFO    2021-03-28 16:53:47,335 [main] Step_Definitions.CommentsStepDefs  - Chose positive as a classification.
+INFO    2021-03-28 16:53:48,427 [main] Step_Definitions.CommentsStepDefs  - Chose hidden as a status.
+INFO    2021-03-28 16:53:49,474 [main] Step_Definitions.CommentsStepDefs  - Verified the process button is enabled after choosing a classification and a status.
+INFO    2021-03-28 16:53:49,474 [main] Step_Definitions.CommentsStepDefs  - In the Manual Test, I realised that it is enabled to process without selecting a classification and a status,for my understanding; it shouldn't allow me to click process without choosing a classification and a status!(Looks like a Bug to me, check the Requirements!!)
+INFO    2021-03-28 16:53:50,640 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 16:53:50,640 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 16:53:50,656 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 17:53:24 28/03/2021 EET)
+DEBUG   2021-03-28 16:53:50,656 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:03:36 28/03/2021 EET)
+INFO    2021-03-28 16:53:50,656 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 16:53:50,671 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 16:53:50,671 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 16:53:57,862 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 16:53:59,130 [main] Step_Definitions.LogoutStepDefs  - I am at the top of the Comments page
+INFO    2021-03-28 16:53:59,446 [main] Step_Definitions.CommentsStepDefs  - Chose negative as a classification.
+INFO    2021-03-28 16:54:00,606 [main] Step_Definitions.CommentsStepDefs  - Chose visible as a status.
+INFO    2021-03-28 16:54:01,652 [main] Step_Definitions.CommentsStepDefs  - Verified the process button is enabled after choosing a classification and a status.
+INFO    2021-03-28 16:54:01,652 [main] Step_Definitions.CommentsStepDefs  - In the Manual Test, I realised that it is enabled to process without selecting a classification and a status,for my understanding; it shouldn't allow me to click process without choosing a classification and a status!(Looks like a Bug to me, check the Requirements!!)
+INFO    2021-03-28 16:54:02,874 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 16:54:02,890 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 16:54:02,906 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 17:53:24 28/03/2021 EET)
+DEBUG   2021-03-28 16:54:02,906 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:03:36 28/03/2021 EET)
+INFO    2021-03-28 16:54:02,906 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 16:54:02,906 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 16:54:02,921 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 16:54:07,701 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 16:54:09,077 [main] Step_Definitions.LogoutStepDefs  - I am at the top of the Comments page
+INFO    2021-03-28 16:54:09,308 [main] Step_Definitions.CommentsStepDefs  - Chose negative as a classification.
+INFO    2021-03-28 16:54:10,417 [main] Step_Definitions.CommentsStepDefs  - Chose hidden as a status.
+INFO    2021-03-28 16:54:11,483 [main] Step_Definitions.CommentsStepDefs  - Verified the process button is enabled after choosing a classification and a status.
+INFO    2021-03-28 16:54:11,483 [main] Step_Definitions.CommentsStepDefs  - In the Manual Test, I realised that it is enabled to process without selecting a classification and a status,for my understanding; it shouldn't allow me to click process without choosing a classification and a status!(Looks like a Bug to me, check the Requirements!!)
+INFO    2021-03-28 16:54:12,977 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 16:54:12,993 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 16:54:13,009 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 17:53:24 28/03/2021 EET)
+DEBUG   2021-03-28 16:54:13,024 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:03:36 28/03/2021 EET)
+INFO    2021-03-28 16:54:13,024 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 16:54:13,024 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 16:54:13,040 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 16:54:17,973 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 16:54:19,407 [main] Step_Definitions.LogoutStepDefs  - I am at the top of the Comments page
+INFO    2021-03-28 16:54:19,651 [main] Step_Definitions.CommentsStepDefs  - Chose neutral as a classification.
+INFO    2021-03-28 16:54:20,738 [main] Step_Definitions.CommentsStepDefs  - Chose visible as a status.
+INFO    2021-03-28 16:54:21,778 [main] Step_Definitions.CommentsStepDefs  - Verified the process button is enabled after choosing a classification and a status.
+INFO    2021-03-28 16:54:21,778 [main] Step_Definitions.CommentsStepDefs  - In the Manual Test, I realised that it is enabled to process without selecting a classification and a status,for my understanding; it shouldn't allow me to click process without choosing a classification and a status!(Looks like a Bug to me, check the Requirements!!)
+INFO    2021-03-28 16:54:22,965 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 16:54:22,965 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 16:54:22,997 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 17:53:24 28/03/2021 EET)
+DEBUG   2021-03-28 16:54:22,997 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:03:36 28/03/2021 EET)
+INFO    2021-03-28 16:54:22,997 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 16:54:23,012 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 16:54:23,012 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 16:54:27,503 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 16:54:28,843 [main] Step_Definitions.LogoutStepDefs  - I am at the top of the Comments page
+INFO    2021-03-28 16:54:29,095 [main] Step_Definitions.CommentsStepDefs  - Chose neutral as a classification.
+INFO    2021-03-28 16:54:30,217 [main] Step_Definitions.CommentsStepDefs  - Chose hidden as a status.
+INFO    2021-03-28 16:54:31,257 [main] Step_Definitions.CommentsStepDefs  - Verified the process button is enabled after choosing a classification and a status.
+INFO    2021-03-28 16:54:31,257 [main] Step_Definitions.CommentsStepDefs  - In the Manual Test, I realised that it is enabled to process without selecting a classification and a status,for my understanding; it shouldn't allow me to click process without choosing a classification and a status!(Looks like a Bug to me, check the Requirements!!)
+INFO    2021-03-28 16:54:33,084 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 16:54:33,099 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 16:54:33,115 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 17:53:24 28/03/2021 EET)
+DEBUG   2021-03-28 16:54:33,115 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:03:36 28/03/2021 EET)
+INFO    2021-03-28 16:54:33,130 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 16:54:33,130 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 16:54:33,146 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 16:54:39,435 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 16:54:42,781 [main] Step_Definitions.LoginStepDefs  - Login is successful
+INFO    2021-03-28 16:54:44,000 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 16:54:44,016 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 16:54:44,031 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 17:53:24 28/03/2021 EET)
+DEBUG   2021-03-28 16:54:44,031 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:03:36 28/03/2021 EET)
+INFO    2021-03-28 16:54:44,031 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 16:54:44,047 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 16:54:44,047 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 16:54:48,814 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 16:54:52,139 [main] Step_Definitions.LoginStepDefs  - Login is not successful
+INFO    2021-03-28 16:54:53,513 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 16:54:53,528 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 16:54:53,560 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 17:53:24 28/03/2021 EET)
+DEBUG   2021-03-28 16:54:53,560 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:03:36 28/03/2021 EET)
+INFO    2021-03-28 16:54:53,560 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 16:54:53,638 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 16:54:53,638 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 16:54:58,115 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 16:54:59,619 [main] Step_Definitions.LogoutStepDefs  - I am at the top of the Comments page
+INFO    2021-03-28 16:55:03,833 [main] Step_Definitions.LogoutStepDefs  - Logout is successful
+INFO    2021-03-28 16:55:05,109 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 16:55:05,265 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 16:55:05,281 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 17:53:24 28/03/2021 EET)
+DEBUG   2021-03-28 16:55:05,296 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:03:36 28/03/2021 EET)
+INFO    2021-03-28 16:55:05,296 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 16:55:05,312 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 16:55:05,312 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 16:55:10,275 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 16:55:11,558 [main] Step_Definitions.LogoutStepDefs  - I am at the top of the Comments page
+INFO    2021-03-28 16:55:11,971 [main] Step_Definitions.RadioButtonStepDefs  - positive radio buttons are enabled.
+INFO    2021-03-28 16:55:13,152 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 16:55:13,167 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 16:55:13,167 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 17:53:24 28/03/2021 EET)
+DEBUG   2021-03-28 16:55:13,167 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:03:36 28/03/2021 EET)
+INFO    2021-03-28 16:55:13,167 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 16:55:13,183 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 16:55:13,183 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 16:55:18,220 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 16:55:19,522 [main] Step_Definitions.LogoutStepDefs  - I am at the top of the Comments page
+INFO    2021-03-28 16:55:19,772 [main] Step_Definitions.RadioButtonStepDefs  - negative radio buttons are enabled.
+INFO    2021-03-28 16:55:21,070 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 16:55:21,070 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 16:55:21,086 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 17:53:24 28/03/2021 EET)
+DEBUG   2021-03-28 16:55:21,086 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:03:36 28/03/2021 EET)
+INFO    2021-03-28 16:55:21,086 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 16:55:21,086 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 16:55:21,086 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 16:55:26,400 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 16:55:27,775 [main] Step_Definitions.LogoutStepDefs  - I am at the top of the Comments page
+INFO    2021-03-28 16:55:27,994 [main] Step_Definitions.RadioButtonStepDefs  - neutral radio buttons are enabled.
+INFO    2021-03-28 16:55:29,229 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 16:55:29,229 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 16:55:29,245 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 17:53:24 28/03/2021 EET)
+DEBUG   2021-03-28 16:55:29,245 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:03:36 28/03/2021 EET)
+INFO    2021-03-28 16:55:29,245 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 16:55:29,260 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 16:55:29,260 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 16:55:34,380 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 16:55:35,735 [main] Step_Definitions.LogoutStepDefs  - I am at the top of the Comments page
+INFO    2021-03-28 16:55:35,938 [main] Step_Definitions.RadioButtonStepDefs  - visible radio buttons are enabled.
+INFO    2021-03-28 16:55:37,175 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 16:55:37,175 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 16:55:37,190 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 17:53:24 28/03/2021 EET)
+DEBUG   2021-03-28 16:55:37,190 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:03:36 28/03/2021 EET)
+INFO    2021-03-28 16:55:37,190 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 16:55:37,190 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 16:55:37,190 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 16:55:41,677 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 16:55:42,935 [main] Step_Definitions.LogoutStepDefs  - I am at the top of the Comments page
+INFO    2021-03-28 16:55:43,201 [main] Step_Definitions.RadioButtonStepDefs  - hidden radio buttons are enabled.
+INFO    2021-03-28 16:55:44,536 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 21:34:05,886 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 21:34:06,964 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Removing resolution chrome=89 from cache (expired on Sun Mar 28 17:53:24 EET 2021)
+DEBUG   2021-03-28 21:34:06,980 [main] io.github.bonigarcia.wdm.versions.Shell  - Running command on the shell: [wmic.exe, datafile, where, name='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+DEBUG   2021-03-28 21:34:07,339 [main] io.github.bonigarcia.wdm.versions.Shell  - Result: 
+DEBUG   2021-03-28 21:34:07,339 [main] io.github.bonigarcia.wdm.versions.Shell  - Running command on the shell: [wmic.exe, datafile, where, name='C:\\Users\\matt\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+DEBUG   2021-03-28 21:34:07,574 [main] io.github.bonigarcia.wdm.versions.Shell  - Result: 
+DEBUG   2021-03-28 21:34:07,574 [main] io.github.bonigarcia.wdm.versions.Shell  - Running command on the shell: [wmic.exe, datafile, where, name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+DEBUG   2021-03-28 21:34:07,871 [main] io.github.bonigarcia.wdm.versions.Shell  - Result: Version=89.0.4389.90
+DEBUG   2021-03-28 21:34:07,886 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Removing resolution chrome89=89.0.4389.23 from cache (expired on Sun Mar 28 21:03:36 EET 2021)
+DEBUG   2021-03-28 21:34:07,949 [main] org.apache.hc.client5.http.impl.classic.InternalHttpClient  - ex-00000001: preparing request execution
+DEBUG   2021-03-28 21:34:07,964 [main] org.apache.hc.client5.http.protocol.RequestAddCookies  - Cookie spec selected: strict
+DEBUG   2021-03-28 21:34:07,980 [main] org.apache.hc.client5.http.protocol.RequestAuthCache  - Auth cache not set in the context
+DEBUG   2021-03-28 21:34:07,980 [main] org.apache.hc.client5.http.impl.classic.ProtocolExec  - ex-00000001: target auth state: UNCHALLENGED
+DEBUG   2021-03-28 21:34:07,980 [main] org.apache.hc.client5.http.impl.classic.ProtocolExec  - ex-00000001: proxy auth state: UNCHALLENGED
+DEBUG   2021-03-28 21:34:07,980 [main] org.apache.hc.client5.http.impl.classic.ConnectExec  - ex-00000001: acquiring connection with route {s}->https://chromedriver.storage.googleapis.com:443
+DEBUG   2021-03-28 21:34:07,980 [main] org.apache.hc.client5.http.impl.classic.InternalHttpClient  - ex-00000001: acquiring endpoint (3 MINUTES)
+DEBUG   2021-03-28 21:34:07,996 [main] org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager  - ex-00000001: endpoint lease request (3 MINUTES) [route: {s}->https://chromedriver.storage.googleapis.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
+DEBUG   2021-03-28 21:34:08,011 [main] org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager  - ex-00000001: endpoint leased [route: {s}->https://chromedriver.storage.googleapis.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+DEBUG   2021-03-28 21:34:08,058 [main] org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager  - ex-00000001: acquired ep-00000000
+DEBUG   2021-03-28 21:34:08,058 [main] org.apache.hc.client5.http.impl.classic.InternalHttpClient  - ex-00000001: acquired endpoint ep-00000000
+DEBUG   2021-03-28 21:34:08,058 [main] org.apache.hc.client5.http.impl.classic.ConnectExec  - ex-00000001: opening connection {s}->https://chromedriver.storage.googleapis.com:443
+DEBUG   2021-03-28 21:34:08,058 [main] org.apache.hc.client5.http.impl.classic.InternalHttpClient  - ep-00000000: connecting endpoint (30 SECONDS)
+DEBUG   2021-03-28 21:34:08,058 [main] org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager  - ep-00000000: connecting endpoint to https://chromedriver.storage.googleapis.com:443 (30 SECONDS)
+DEBUG   2021-03-28 21:34:08,214 [main] org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator  - http-outgoing-0: connecting to chromedriver.storage.googleapis.com/216.58.206.176:443
+DEBUG   2021-03-28 21:34:08,230 [main] org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory  - Connecting socket to chromedriver.storage.googleapis.com/216.58.206.176:443 with timeout 30 SECONDS
+DEBUG   2021-03-28 21:34:08,667 [main] org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory  - Enabled protocols: [TLSv1.3, TLSv1.2]
+DEBUG   2021-03-28 21:34:08,667 [main] org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory  - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+DEBUG   2021-03-28 21:34:08,667 [main] org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory  - Starting handshake
+DEBUG   2021-03-28 21:34:09,480 [main] org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory  - Secure session established
+DEBUG   2021-03-28 21:34:09,480 [main] org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory  -  negotiated protocol: TLSv1.3
+DEBUG   2021-03-28 21:34:09,496 [main] org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory  -  negotiated cipher suite: TLS_AES_256_GCM_SHA384
+DEBUG   2021-03-28 21:34:09,496 [main] org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory  -  peer principal: CN=*.storage.googleapis.com, O=Google LLC, L=Mountain View, ST=California, C=US
+DEBUG   2021-03-28 21:34:09,496 [main] org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory  -  peer alternative names: [*.storage.googleapis.com, *.appspot.com.storage.googleapis.com, *.commondatastorage.googleapis.com, *.content-storage-download.googleapis.com, *.content-storage-p2.googleapis.com, *.content-storage-upload.googleapis.com, *.content-storage.googleapis.com, *.googleapis.com, *.storage-download.googleapis.com, *.storage-upload.googleapis.com, commondatastorage.googleapis.com, storage.googleapis.com, storage.mtls.googleapis.com]
+DEBUG   2021-03-28 21:34:09,496 [main] org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory  -  issuer principal: CN=GTS CA 1O1, O=Google Trust Services, C=US
+DEBUG   2021-03-28 21:34:09,496 [main] org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator  - http-outgoing-0: connection established 192.168.1.39:63856<->216.58.206.176:443
+DEBUG   2021-03-28 21:34:09,496 [main] org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager  - ep-00000000: connected http-outgoing-0
+DEBUG   2021-03-28 21:34:09,496 [main] org.apache.hc.client5.http.impl.classic.InternalHttpClient  - ep-00000000: endpoint connected
+DEBUG   2021-03-28 21:34:09,496 [main] org.apache.hc.client5.http.impl.classic.MainClientExec  - ex-00000001: executing GET /LATEST_RELEASE_89 HTTP/1.1
+DEBUG   2021-03-28 21:34:09,496 [main] org.apache.hc.client5.http.impl.classic.InternalHttpClient  - ep-00000000: start execution ex-00000001
+DEBUG   2021-03-28 21:34:09,496 [main] org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager  - ep-00000000: executing exchange ex-00000001 over http-outgoing-0
+DEBUG   2021-03-28 21:34:09,511 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 >> GET /LATEST_RELEASE_89 HTTP/1.1
+DEBUG   2021-03-28 21:34:09,511 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 >> user-agent: Apache-HttpClient/5.0
+DEBUG   2021-03-28 21:34:09,511 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 >> accept-encoding: gzip, deflate, br
+DEBUG   2021-03-28 21:34:09,511 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 >> cache-control: max-age=0
+DEBUG   2021-03-28 21:34:09,511 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 >> Host: chromedriver.storage.googleapis.com
+DEBUG   2021-03-28 21:34:09,511 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 >> Connection: keep-alive
+DEBUG   2021-03-28 21:34:09,511 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 >> "GET /LATEST_RELEASE_89 HTTP/1.1[\r][\n]"
+DEBUG   2021-03-28 21:34:09,511 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
+DEBUG   2021-03-28 21:34:09,511 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 >> "accept-encoding: gzip, deflate, br[\r][\n]"
+DEBUG   2021-03-28 21:34:09,511 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 >> "cache-control: max-age=0[\r][\n]"
+DEBUG   2021-03-28 21:34:09,511 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 >> "Host: chromedriver.storage.googleapis.com[\r][\n]"
+DEBUG   2021-03-28 21:34:09,511 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+DEBUG   2021-03-28 21:34:09,511 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 >> "[\r][\n]"
+DEBUG   2021-03-28 21:34:09,714 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG   2021-03-28 21:34:09,714 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "X-GUploader-UploadID: ABg5-Uwj-NQpv5VeAKreff84HGJxqBd7k-7sS9Ue3vJAOZiIUlrPLkklB9HcteqiR6tdoh5Ks9fqP62vZX2hsk1FhBY[\r][\n]"
+DEBUG   2021-03-28 21:34:09,714 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "Expires: Sun, 28 Mar 2021 19:34:09 GMT[\r][\n]"
+DEBUG   2021-03-28 21:34:09,714 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "Date: Sun, 28 Mar 2021 18:34:09 GMT[\r][\n]"
+DEBUG   2021-03-28 21:34:09,714 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "Last-Modified: Thu, 28 Jan 2021 17:30:59 GMT[\r][\n]"
+DEBUG   2021-03-28 21:34:09,714 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "ETag: "d5fc77bc5fc3591f5d909c7320db90b4"[\r][\n]"
+DEBUG   2021-03-28 21:34:09,714 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "x-goog-generation: 1611855059666771[\r][\n]"
+DEBUG   2021-03-28 21:34:09,714 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "x-goog-metageneration: 1[\r][\n]"
+DEBUG   2021-03-28 21:34:09,714 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "x-goog-stored-content-encoding: identity[\r][\n]"
+DEBUG   2021-03-28 21:34:09,714 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "x-goog-stored-content-length: 12[\r][\n]"
+DEBUG   2021-03-28 21:34:09,714 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "Content-Type: text/plain[\r][\n]"
+DEBUG   2021-03-28 21:34:09,714 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "Content-Language: en[\r][\n]"
+DEBUG   2021-03-28 21:34:09,714 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "x-goog-hash: crc32c=paF+5Q==[\r][\n]"
+DEBUG   2021-03-28 21:34:09,714 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "x-goog-hash: md5=1fx3vF/DWR9dkJxzINuQtA==[\r][\n]"
+DEBUG   2021-03-28 21:34:09,714 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "x-goog-storage-class: STANDARD[\r][\n]"
+DEBUG   2021-03-28 21:34:09,714 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+DEBUG   2021-03-28 21:34:09,714 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "Content-Length: 12[\r][\n]"
+DEBUG   2021-03-28 21:34:09,714 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "Server: UploadServer[\r][\n]"
+DEBUG   2021-03-28 21:34:09,714 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "Cache-Control: public, max-age=3600[\r][\n]"
+DEBUG   2021-03-28 21:34:09,730 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "Age: 0[\r][\n]"
+DEBUG   2021-03-28 21:34:09,730 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "Alt-Svc: h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"[\r][\n]"
+DEBUG   2021-03-28 21:34:09,730 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "[\r][\n]"
+DEBUG   2021-03-28 21:34:09,730 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "89.0.4389.23"
+DEBUG   2021-03-28 21:34:09,730 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG   2021-03-28 21:34:09,730 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << X-GUploader-UploadID: ABg5-Uwj-NQpv5VeAKreff84HGJxqBd7k-7sS9Ue3vJAOZiIUlrPLkklB9HcteqiR6tdoh5Ks9fqP62vZX2hsk1FhBY
+DEBUG   2021-03-28 21:34:09,761 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << Expires: Sun, 28 Mar 2021 19:34:09 GMT
+DEBUG   2021-03-28 21:34:09,761 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << Date: Sun, 28 Mar 2021 18:34:09 GMT
+DEBUG   2021-03-28 21:34:09,761 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << Last-Modified: Thu, 28 Jan 2021 17:30:59 GMT
+DEBUG   2021-03-28 21:34:09,761 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << ETag: "d5fc77bc5fc3591f5d909c7320db90b4"
+DEBUG   2021-03-28 21:34:09,761 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << x-goog-generation: 1611855059666771
+DEBUG   2021-03-28 21:34:09,761 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << x-goog-metageneration: 1
+DEBUG   2021-03-28 21:34:09,761 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << x-goog-stored-content-encoding: identity
+DEBUG   2021-03-28 21:34:09,761 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << x-goog-stored-content-length: 12
+DEBUG   2021-03-28 21:34:09,761 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << Content-Type: text/plain
+DEBUG   2021-03-28 21:34:09,761 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << Content-Language: en
+DEBUG   2021-03-28 21:34:09,761 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << x-goog-hash: crc32c=paF+5Q==
+DEBUG   2021-03-28 21:34:09,761 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << x-goog-hash: md5=1fx3vF/DWR9dkJxzINuQtA==
+DEBUG   2021-03-28 21:34:09,761 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << x-goog-storage-class: STANDARD
+DEBUG   2021-03-28 21:34:09,761 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << Accept-Ranges: bytes
+DEBUG   2021-03-28 21:34:09,761 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << Content-Length: 12
+DEBUG   2021-03-28 21:34:09,761 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << Server: UploadServer
+DEBUG   2021-03-28 21:34:09,761 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << Cache-Control: public, max-age=3600
+DEBUG   2021-03-28 21:34:09,761 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << Age: 0
+DEBUG   2021-03-28 21:34:09,761 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << Alt-Svc: h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+DEBUG   2021-03-28 21:34:09,777 [main] org.apache.hc.client5.http.impl.classic.MainClientExec  - ex-00000001: connection can be kept alive for 3 MINUTES
+DEBUG   2021-03-28 21:34:09,777 [main] org.apache.hc.client5.http.impl.classic.InternalHttpClient  - ep-00000000: releasing valid endpoint
+DEBUG   2021-03-28 21:34:09,793 [main] org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager  - ep-00000000: releasing endpoint
+DEBUG   2021-03-28 21:34:09,793 [main] org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager  - ep-00000000: connection http-outgoing-0 can be kept alive for 3 MINUTES
+DEBUG   2021-03-28 21:34:09,793 [main] org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager  - ep-00000000: connection released [route: {s}->https://chromedriver.storage.googleapis.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+DEBUG   2021-03-28 21:34:09,793 [main] io.github.bonigarcia.wdm.versions.VersionDetector  - Latest version of chromedriver according to https://chromedriver.storage.googleapis.com/LATEST_RELEASE_89 is 89.0.4389.23
+INFO    2021-03-28 21:34:09,793 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 21:34:09,824 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Storing resolution chrome=89 in cache (valid until 22:34:09 28/03/2021 EET)
+DEBUG   2021-03-28 21:34:09,839 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Storing resolution chrome89=89.0.4389.23 in cache (valid until 21:34:09 29/03/2021 EET)
+DEBUG   2021-03-28 21:34:09,902 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 21:34:09,902 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 21:34:19,199 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 21:34:21,445 [main] Step_Definitions.LogoutStepDefs  - I am at the top of the Comments page
+INFO    2021-03-28 21:34:21,725 [main] Step_Definitions.CommentsStepDefs  - Chose positive as a classification.
+INFO    2021-03-28 21:34:22,910 [main] Step_Definitions.CommentsStepDefs  - Chose visible as a status.
+INFO    2021-03-28 21:34:23,957 [main] Step_Definitions.CommentsStepDefs  - Verified the process button is enabled after choosing a classification and a status.
+INFO    2021-03-28 21:34:23,957 [main] Step_Definitions.CommentsStepDefs  - In the Manual Test, I realised that it is enabled to process without selecting a classification and a status,for my understanding; it shouldn't allow me to click process without choosing a classification and a status!(Looks like a Bug to me, check the Requirements!!)
+INFO    2021-03-28 21:34:25,523 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 21:34:25,549 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 21:34:25,565 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 22:34:09 28/03/2021 EET)
+DEBUG   2021-03-28 21:34:25,565 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:34:09 29/03/2021 EET)
+INFO    2021-03-28 21:34:25,565 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 21:34:25,580 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 21:34:25,596 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 21:34:31,269 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 21:34:32,770 [main] Step_Definitions.LogoutStepDefs  - I am at the top of the Comments page
+INFO    2021-03-28 21:34:33,033 [main] Step_Definitions.CommentsStepDefs  - Chose positive as a classification.
+INFO    2021-03-28 21:34:34,145 [main] Step_Definitions.CommentsStepDefs  - Chose hidden as a status.
+INFO    2021-03-28 21:34:35,203 [main] Step_Definitions.CommentsStepDefs  - Verified the process button is enabled after choosing a classification and a status.
+INFO    2021-03-28 21:34:35,203 [main] Step_Definitions.CommentsStepDefs  - In the Manual Test, I realised that it is enabled to process without selecting a classification and a status,for my understanding; it shouldn't allow me to click process without choosing a classification and a status!(Looks like a Bug to me, check the Requirements!!)
+INFO    2021-03-28 21:34:36,843 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 21:34:36,905 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 21:34:36,921 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 22:34:09 28/03/2021 EET)
+DEBUG   2021-03-28 21:34:36,921 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:34:09 29/03/2021 EET)
+INFO    2021-03-28 21:34:36,921 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 21:34:36,936 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 21:34:36,952 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 21:34:42,284 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 21:34:43,646 [main] Step_Definitions.LogoutStepDefs  - I am at the top of the Comments page
+INFO    2021-03-28 21:34:43,910 [main] Step_Definitions.CommentsStepDefs  - Chose negative as a classification.
+INFO    2021-03-28 21:34:45,017 [main] Step_Definitions.CommentsStepDefs  - Chose visible as a status.
+INFO    2021-03-28 21:34:46,064 [main] Step_Definitions.CommentsStepDefs  - Verified the process button is enabled after choosing a classification and a status.
+INFO    2021-03-28 21:34:46,064 [main] Step_Definitions.CommentsStepDefs  - In the Manual Test, I realised that it is enabled to process without selecting a classification and a status,for my understanding; it shouldn't allow me to click process without choosing a classification and a status!(Looks like a Bug to me, check the Requirements!!)
+INFO    2021-03-28 21:34:48,585 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 21:34:48,585 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 21:34:48,601 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 22:34:09 28/03/2021 EET)
+DEBUG   2021-03-28 21:34:48,601 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:34:09 29/03/2021 EET)
+INFO    2021-03-28 21:34:48,601 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 21:34:48,617 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 21:34:48,632 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 21:34:53,876 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 21:34:55,482 [main] Step_Definitions.LogoutStepDefs  - I am at the top of the Comments page
+INFO    2021-03-28 21:34:55,713 [main] Step_Definitions.CommentsStepDefs  - Chose negative as a classification.
+INFO    2021-03-28 21:34:56,821 [main] Step_Definitions.CommentsStepDefs  - Chose hidden as a status.
+INFO    2021-03-28 21:34:57,859 [main] Step_Definitions.CommentsStepDefs  - Verified the process button is enabled after choosing a classification and a status.
+INFO    2021-03-28 21:34:57,859 [main] Step_Definitions.CommentsStepDefs  - In the Manual Test, I realised that it is enabled to process without selecting a classification and a status,for my understanding; it shouldn't allow me to click process without choosing a classification and a status!(Looks like a Bug to me, check the Requirements!!)
+INFO    2021-03-28 21:34:59,457 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 21:34:59,489 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 21:34:59,504 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 22:34:09 28/03/2021 EET)
+DEBUG   2021-03-28 21:34:59,520 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:34:09 29/03/2021 EET)
+INFO    2021-03-28 21:34:59,520 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 21:34:59,551 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 21:34:59,551 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 21:35:04,826 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 21:35:06,420 [main] Step_Definitions.LogoutStepDefs  - I am at the top of the Comments page
+INFO    2021-03-28 21:35:06,688 [main] Step_Definitions.CommentsStepDefs  - Chose neutral as a classification.
+INFO    2021-03-28 21:35:07,812 [main] Step_Definitions.CommentsStepDefs  - Chose visible as a status.
+INFO    2021-03-28 21:35:08,859 [main] Step_Definitions.CommentsStepDefs  - Verified the process button is enabled after choosing a classification and a status.
+INFO    2021-03-28 21:35:08,859 [main] Step_Definitions.CommentsStepDefs  - In the Manual Test, I realised that it is enabled to process without selecting a classification and a status,for my understanding; it shouldn't allow me to click process without choosing a classification and a status!(Looks like a Bug to me, check the Requirements!!)
+INFO    2021-03-28 21:35:10,255 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 21:35:10,271 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 21:35:10,287 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 22:34:09 28/03/2021 EET)
+DEBUG   2021-03-28 21:35:10,287 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:34:09 29/03/2021 EET)
+INFO    2021-03-28 21:35:10,287 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 21:35:10,302 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 21:35:10,302 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 21:35:15,183 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 21:35:16,614 [main] Step_Definitions.LogoutStepDefs  - I am at the top of the Comments page
+INFO    2021-03-28 21:35:16,923 [main] Step_Definitions.CommentsStepDefs  - Chose neutral as a classification.
+INFO    2021-03-28 21:35:18,031 [main] Step_Definitions.CommentsStepDefs  - Chose hidden as a status.
+INFO    2021-03-28 21:35:19,072 [main] Step_Definitions.CommentsStepDefs  - Verified the process button is enabled after choosing a classification and a status.
+INFO    2021-03-28 21:35:19,072 [main] Step_Definitions.CommentsStepDefs  - In the Manual Test, I realised that it is enabled to process without selecting a classification and a status,for my understanding; it shouldn't allow me to click process without choosing a classification and a status!(Looks like a Bug to me, check the Requirements!!)
+INFO    2021-03-28 21:35:20,518 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 21:35:20,533 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 21:35:20,549 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 22:34:09 28/03/2021 EET)
+DEBUG   2021-03-28 21:35:20,549 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:34:09 29/03/2021 EET)
+INFO    2021-03-28 21:35:20,549 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 21:35:20,564 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 21:35:20,564 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 21:35:28,058 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 21:35:31,533 [main] Step_Definitions.LoginStepDefs  - Login is successful
+INFO    2021-03-28 21:35:32,712 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 21:35:32,712 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 21:35:32,728 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 22:34:09 28/03/2021 EET)
+DEBUG   2021-03-28 21:35:32,728 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:34:09 29/03/2021 EET)
+INFO    2021-03-28 21:35:32,728 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 21:35:32,743 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 21:35:32,743 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 21:35:38,108 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 21:35:41,554 [main] Step_Definitions.LoginStepDefs  - Login is not successful
+INFO    2021-03-28 21:35:42,994 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 21:35:43,024 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 21:35:43,042 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 22:34:09 28/03/2021 EET)
+DEBUG   2021-03-28 21:35:43,042 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:34:09 29/03/2021 EET)
+INFO    2021-03-28 21:35:43,042 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 21:35:43,042 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 21:35:43,058 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 21:35:47,934 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 21:35:49,322 [main] Step_Definitions.LogoutStepDefs  - I am at the top of the Comments page
+INFO    2021-03-28 21:35:53,526 [main] Step_Definitions.LogoutStepDefs  - Logout is successful
+INFO    2021-03-28 21:35:54,995 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 21:35:55,026 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 21:35:55,026 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 22:34:09 28/03/2021 EET)
+DEBUG   2021-03-28 21:35:55,042 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:34:09 29/03/2021 EET)
+INFO    2021-03-28 21:35:55,042 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 21:35:55,058 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 21:35:55,058 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 21:36:00,390 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 21:36:01,763 [main] Step_Definitions.LogoutStepDefs  - I am at the top of the Comments page
+INFO    2021-03-28 21:36:02,058 [main] Step_Definitions.RadioButtonStepDefs  - positive radio buttons are enabled.
+INFO    2021-03-28 21:36:03,581 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 21:36:03,587 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 21:36:03,602 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 22:34:09 28/03/2021 EET)
+DEBUG   2021-03-28 21:36:03,604 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:34:09 29/03/2021 EET)
+INFO    2021-03-28 21:36:03,604 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 21:36:03,614 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 21:36:03,615 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 21:36:08,434 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 21:36:09,733 [main] Step_Definitions.LogoutStepDefs  - I am at the top of the Comments page
+INFO    2021-03-28 21:36:09,983 [main] Step_Definitions.RadioButtonStepDefs  - negative radio buttons are enabled.
+INFO    2021-03-28 21:36:11,389 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 21:36:11,389 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 21:36:11,404 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 22:34:09 28/03/2021 EET)
+DEBUG   2021-03-28 21:36:11,404 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:34:09 29/03/2021 EET)
+INFO    2021-03-28 21:36:11,404 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 21:36:11,420 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 21:36:11,420 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 21:36:16,615 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 21:36:18,057 [main] Step_Definitions.LogoutStepDefs  - I am at the top of the Comments page
+INFO    2021-03-28 21:36:18,359 [main] Step_Definitions.RadioButtonStepDefs  - neutral radio buttons are enabled.
+INFO    2021-03-28 21:36:19,633 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 21:36:19,633 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 21:36:19,649 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 22:34:09 28/03/2021 EET)
+DEBUG   2021-03-28 21:36:19,649 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:34:09 29/03/2021 EET)
+INFO    2021-03-28 21:36:19,649 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 21:36:19,649 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 21:36:19,649 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 21:36:24,420 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 21:36:25,887 [main] Step_Definitions.LogoutStepDefs  - I am at the top of the Comments page
+INFO    2021-03-28 21:36:26,339 [main] Step_Definitions.RadioButtonStepDefs  - visible radio buttons are enabled.
+INFO    2021-03-28 21:36:27,777 [main] Step_Definitions.Hooks  - After the Closure
+INFO    2021-03-28 21:36:27,792 [main] Step_Definitions.Hooks  - Before the Setup
+DEBUG   2021-03-28 21:36:27,839 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=89 in cache (valid until 22:34:09 28/03/2021 EET)
+DEBUG   2021-03-28 21:36:27,839 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome89=89.0.4389.23 in cache (valid until 21:34:09 29/03/2021 EET)
+INFO    2021-03-28 21:36:27,839 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+DEBUG   2021-03-28 21:36:27,855 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 89.0.4389.23 found in cache
+INFO    2021-03-28 21:36:27,855 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\matt\.m2\repository\webdriver\chromedriver\win32\89.0.4389.23\chromedriver.exe
+INFO    2021-03-28 21:36:33,843 [main] Step_Definitions.LoginStepDefs  - I am on the login page
+INFO    2021-03-28 21:36:35,296 [main] Step_Definitions.LogoutStepDefs  - I am at the top of the Comments page
+INFO    2021-03-28 21:36:35,628 [main] Step_Definitions.RadioButtonStepDefs  - hidden radio buttons are enabled.
+INFO    2021-03-28 21:36:36,990 [main] Step_Definitions.Hooks  - After the Closure

@@ -1,0 +1,45 @@
+// In this file I made change in UI and checked the database if all changes occured.
+Feature: End2End UI and Database Verifications
+
+    // All 3 steps in Background are common first 3 steps for ALL scenarios.
+    Background:
+          Given I am on the login page
+          And I logged in successfully with a valid key
+          And I am on the Comments page
+
+
+    Scenario-1: Verify the processed comment has saved with a classification and status in the Airtable
+            When I process a comment by choosing a classification(positive or negative or neutral) and a status(visible or hidden)
+            Then I should see the same classification and the same status for the processed comment on the Airtable
+
+
+    Scenario-2: Verify that a processed comment can be updated with a classification and status in the Airtable
+            And I process a comment by choosing a classification(positive or negative or neutral) and a status(visible or hidden)
+            And I should see the same classification and the same status for the processed comment on the Airtable
+            When I process the same comment again with different classification and a status values
+            Then I should see the updated classification and status for the processed comment on the Airtable
+
+
+    Scenario-3: Verify the processed comment has saved with only classification not status in the Airtable
+            When I process a comment by choosing only classification(positive or negative or neutral) and not status
+            Then I should see the same classification and blank status for the processed comment on the Airtable
+
+
+    Scenario-4: Verify the processed comment has saved with only status not classification in the Airtable
+            When I process a comment by choosing only status(visible or hidden) and not classification
+            Then I should see the same status and blank classification for the processed comment on the Airtable
+
+
+    Scenario-5: Verify the processed comment has saved without classification and status in the Airtable
+            When I process a comment by not choosing neither classification nor status
+            Then I should see the blank classification and blank status for the processed comment on the Airtable
+
+
+    /* NOTE:
+    When I perform manual testing, I can click "PROCESS" button without selecting any
+    "Classification" and "Status" options and when I check the database, I see that
+    processed comment is stored at the database without a valid classification and
+    a valid status. As far as I understand the app, we need to store the processed
+    comments with a valid classification and a valid status. Maybe we need to discuss
+    about the requirements.
+    */

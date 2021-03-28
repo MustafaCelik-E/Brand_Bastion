@@ -1,0 +1,48 @@
+================
+Bug Report - 001
+
+Date: March 28, 2021
+Reporter : Mustafa Celik
+Assignee: Dev-Team Lead (Team lead decides to who to assign)
+
+Summary: Once a comment is processed, the status can not be updated on Airtable database later.
+
+Description:
+
+    Step-1: Given I am on the login page
+        Step-1 --> PASSED
+
+    Step-2: And I logged in successfully with a valid key
+        Step-2 --> PASSED
+
+    Step-3: And I am on the Comments page
+        Step-3 --> PASSED
+
+    Step-4: And I process the second comment by choosing "neutral" as classification and "hidden" as status
+        Step-4 --> PASSED
+
+    Step-5: And I should see the same "neutral" as classification and "hidden" as status for the processed comment on the Airtable
+        Step-5 --> PASSED
+
+    Step-6: When I process the same comment again with "positive" as classification and "visible" as status
+        Step-6 --> PASSED
+
+    Step-7: Then I should see the updated classification and status for the processed comment on the Airtable
+        Step-7 --> FAILED
+
+
+Expected Result : status = visible      classification = positive
+
+Actual Result   : status = hidden       classification = positive
+
+Attachment      : (Normally I use Jira to create bug ticket and I provide screenshots as attachments)
+
+Priority        : (Developers and Business team decides)
+
+Severity        : High
+
+Environment     : "https://bbtestassignment.now.sh/"
+
+Linked          : E2E-UI-Database-Scenario-2
+
+================
